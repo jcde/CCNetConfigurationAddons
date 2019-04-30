@@ -12,7 +12,5 @@ copy nsis\makensis.bat %windir%
 copy nsis\SimpleSC.dll "%ProgramFiles(x86)%\nsis\plugins" 
 copy nsis\AccessControl.dll "%ProgramFiles(x86)%\nsis\plugins" 
 
-msiexec /i "StyleCop-4.7.49.0.msi" /quiet /qn /norestart /log "logs\StyleCop-4.7.49.0.msi.log"
-
 rem other/CruiseControl.NET-1.8.5.0-Setup.exe /S
 rem other/zip-3.0-setup.exe /S
